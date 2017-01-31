@@ -1,0 +1,3 @@
+Get setup-x86_64.exe from here:
+
+https://cygwin.com/

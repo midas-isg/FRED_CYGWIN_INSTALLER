@@ -1,0 +1,3 @@
+The recommended pre-built version of FRED for Cygwin can be found here (this version includes an important environment initialization/launcher batch script):
+
+https://github.com/midas-isg/FRED/tree/FRED-v2.12.0-build-for-cygwin

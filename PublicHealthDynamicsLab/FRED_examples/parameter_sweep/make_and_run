@@ -1,0 +1,13 @@
+#!/bin/csh
+
+#This is a script to automate making and running the fred_tasks for the parameter sweep example
+
+set echo
+
+./clear_old
+fred_make_params -f config
+fred_make_tasks -n 10
+./tasks &
+
+unset echo
+echo Run fred_jobs to check status

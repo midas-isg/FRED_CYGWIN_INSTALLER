@@ -1,0 +1,17 @@
+#!/bin/csh
+
+if (-f .params.lck) then
+	rm .params.lck
+endif
+
+if (-f tasks) then
+	rm tasks
+endif
+
+if (-f PARAMDIR) then
+	rm -R PARAMDIR
+endif
+
+if (-f TASKDIR) then
+	rm -R TASKDIR
+endif
