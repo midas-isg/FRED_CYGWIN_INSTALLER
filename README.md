@@ -9,6 +9,7 @@ http://research.rods.pitt.edu/fred_win64.exe
 
 
 Instructions for building:
+
 1. In PublicHealthDynamicsLab/cygwin_install_files directory, place a copy of setup-x86_64.exe obtained from https://cygwin.com/
 
 2. In FRED place all of the files from FRED-v2.12.0-build-for-cygwin (or a derived branch which contains bin/FRED.bat) obtained from https://github.com/midas-isg/FRED/tree/FRED-v2.12.0-build-for-cygwin. Make sure that the folder's name remains FRED so that the bin, doc, etc, as well as the other directories and files are located directly within PublicHealthDynamicsLab/FRED.
