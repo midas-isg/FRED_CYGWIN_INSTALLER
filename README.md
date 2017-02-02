@@ -11,6 +11,6 @@ https://github.com/midas-isg/FRED_CYGWIN_INSTALLER/releases
 
 2. In FRED place all of the files from FRED-v2.12.0-build-for-cygwin (or a derived branch which contains bin/FRED.bat) obtained from https://github.com/midas-isg/FRED/tree/FRED-v2.12.0-build-for-cygwin. Make sure that the folder's name remains FRED so that the bin, doc, etc, as well as the other directories and files are located directly within PublicHealthDynamicsLab/FRED.
 
-3. Compile fred_cywin64.nsi using NSIS compiler (http://nsis.sourceforge.net/Download)
+3. Compile fred_cywin64.nsi using the NSIS compiler (http://nsis.sourceforge.net/Download)
 
-4. The produced installer will be a file labeled fred_win64.exe which should be able to be distributed for installation on modern Windows 64-bit machines (tested on Windows 7 and 10)
+4. The produced installer will be a file labeled fred_cygwin64.exe which should be able to be distributed for installation on modern Windows 64-bit machines (tested on Windows 7 and 10)
