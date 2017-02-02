@@ -1,17 +1,17 @@
-; FRED_Win Installer
+; FRED Cygwin Installer
 ;
 ; This script is based on example1.nsi, but it remember the directory, 
 ; has uninstall support and (optionally) installs start menu shortcuts.
 ;
-; It will install FRED.nsi into a directory that the user selects,
+; It will install FRED_Cygwin64.nsi into a directory that the user selects,
 
 ;----------------------------------------------------------------------
 
 ; The name of the installer
-Name "FRED_Win64"
+Name "FRED_Cygwin64"
 
 ; The file to write
-OutFile "fred_win64.exe"
+OutFile "fred_cygwin64.exe"
 
 ; Request application privileges for Windows Vista
 RequestExecutionLevel admin
