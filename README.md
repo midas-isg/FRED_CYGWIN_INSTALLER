@@ -1,4 +1,4 @@
-# FRED_CYGWIN_INSTALLER
+# FRED CYGWIN INSTALLER
 This project creates a 64-bit Windows installer of FRED for Cygwin using NSIS (Nullsoft Scriptable Install System).
 
 Example compiled executables (made using customized Cygwin versions of FRED hosted at https://github.com/midas-isg/FRED) can be downloaded from here:
