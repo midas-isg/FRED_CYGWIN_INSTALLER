@@ -1,4 +1,6 @@
 # FRED CYGWIN INSTALLER
+[![DOI](https://zenodo.org/badge/80568018.svg)](https://zenodo.org/badge/latestdoi/80568018)
+
 This project creates a 64-bit Windows installer of FRED for Cygwin using NSIS (Nullsoft Scriptable Install System).
 
 Example compiled executables (made using customized Cygwin versions of FRED hosted at https://github.com/midas-isg/FRED) can be downloaded from here:
@@ -14,5 +16,3 @@ https://github.com/midas-isg/FRED_CYGWIN_INSTALLER/releases
 3. Compile fred_cywin64.nsi using the NSIS compiler (http://nsis.sourceforge.net/Download)
 
 4. The produced installer will be a file labeled fred_cygwin64.exe which should be able to be distributed for installation on modern Windows 64-bit machines (tested on Windows 7 and 10)
-
-[![DOI](https://zenodo.org/badge/80568018.svg)](https://zenodo.org/badge/latestdoi/80568018)
