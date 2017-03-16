@@ -8,10 +8,10 @@ if (-f tasks) then
 	rm tasks
 endif
 
-if (-f PARAMDIR) then
+if (-d PARAMDIR) then
 	rm -R PARAMDIR
 endif
 
-if (-f TASKDIR) then
+if (-d TASKDIR) then
 	rm -R TASKDIR
 endif
